@@ -429,8 +429,23 @@ th {
 
 body {
   font-family: 'Lato', sans-serif;
+  font-size:16px;
+}
+.datos-texto{
+    font-size:1.1em;
+    margin: 10px 0px;
+}
+.datos-cabecera .datos-texto {
+    font-size:1.5em;
+    text-align: center;
+    margin: 60px 0px;
 }
 
+.slack-input{
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid rgb(210, 210, 210);
+}
 .datos-container {
   width: 100%;
   box-sizing: border-box;
@@ -450,6 +465,7 @@ body {
 
 .datos-titulos {
   margin-top: 0;
+  margin-bottom:0;
 }
 
 .datos-redes-sociales,
@@ -472,7 +488,7 @@ body {
 .datos-github,
 .datos-twitter,
 .datos-slack {
-  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .datos-contacta {
@@ -497,13 +513,14 @@ body {
 
 .datos-btn {
   border: 0;
-  background-color: #0C6CA9;
+  background-color: #4597D9;
   color: #fff;
   box-sizing: border-box;
   padding: 10px 30px;
   vertical-align: top;
   width: 100%;
   display: block;
+  font-weight: bold;
 }
 
 /* ==========================================================================
@@ -543,6 +560,3 @@ Media Queries Mobile first styles.
     max-width: 64px;
   }
 }
-
-
-
