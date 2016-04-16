@@ -523,12 +523,10 @@ Media Queries Mobile first styles.
 
 }
 
-/* ===== == = === desde 48em (768px) === = == ===== */
+/* ===== == = === desde 48em (768px) === = == =====
 @media only screen and (min-width:48em) {
-  #container {
 
-  }
-}
+} */
 
 /* ===== == = === 64em (1024px) === = == ===== */
 @media only screen and (min-width:64em) {
@@ -538,9 +536,5 @@ Media Queries Mobile first styles.
 
   .datos-redes-sociales {
     max-width: 64px;
-  }
-
-  .row-text p{
-
   }
 }
