@@ -470,7 +470,7 @@ a {
 }
 
 .row-text {
-  width: 590px;
+  max-width: 590px;
   display: inline-block;
   vertical-align: top;
 }
@@ -533,10 +533,14 @@ Media Queries Mobile first styles.
 /* ===== == = === 64em (1024px) === = == ===== */
 @media only screen and (min-width:64em) {
   #container {
-    width: 800px;
+    max-width: 800px;
   }
 
   .datos-redes-sociales {
     max-width: 64px;
+  }
+
+  .row-text p{
+
   }
 }
