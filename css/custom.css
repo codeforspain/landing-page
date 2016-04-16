@@ -429,98 +429,88 @@ th {
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size:16px;
-}
-.datos-texto{
-    font-size:1.1em;
-    margin: 10px 0px;
-}
-.datos-cabecera .datos-texto {
-    font-size:1.5em;
-    text-align: center;
-    margin: 60px 0px;
+  font-size:20px;
 }
 
-.slack-input{
-    text-align: center;
-    border-radius: 2px;
-    border: 1px solid rgb(210, 210, 210);
-}
-.datos-container {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 20px;
-  margin: 0 auto;
-}
-
-.datos-logo {
-  display: block;
-  max-width: 50%;
-  margin: 0 auto;
+a {
+  text-decoration: none;
+  color: #4597D9;
 }
 
 .bold {
   font-weight: bold;
 }
 
-.datos-titulos {
-  margin-top: 0;
-  margin-bottom:0;
-}
-
-.datos-redes-sociales,
-.datos-contenedor-texto {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.datos-redes-sociales {
-  width: 15%;
-  vertical-align: top;
-  padding-right: 10px;
+#container {
+  width: 100%;
   box-sizing: border-box;
+  padding: 20px 0px;
+  margin: 0 auto;
 }
 
-.datos-contenedor-texto {
-  width: 84%;
+.header .intro {
+    font-size:1.25em;
+    text-align: center;
+    margin: 40px 0px 60px;
 }
 
-.datos-github,
-.datos-twitter,
-.datos-slack {
+.header .logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.row {
   margin-bottom: 50px;
 }
 
-.datos-contacta {
-  text-decoration: none;
-  color: #287CB5;
-  display: block;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.datos-contenedor-texto .datos-contacta {
+.icon {
   display: inline-block;
+  vertical-align: top;
+  margin: 0px 30px;
 }
 
-.datos-input {
+.row-text {
+  width: 590px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.row-text h3 {
+  margin-top: 0;
+  margin-bottom:0;
+  font-size: 1em;
+}
+
+.row-text p {
+    margin: 10px 0px 20px;
+    line-height: 1.3em;
+}
+
+input {
+  width: 280px;
+  height: 50px;
+  border: 1px solid #D6D6D6;
   box-sizing: border-box;
-  height: 39px;
-  width: 100%;
-  display: block;
-  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.1em;
 }
 
-.datos-btn {
+.btn-email {
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
   border: 0;
-  background-color: #4597D9;
-  color: #fff;
-  box-sizing: border-box;
   padding: 10px 30px;
   vertical-align: top;
-  width: 100%;
-  display: block;
+  background-color: #4597D9;
+  color: #fff;
   font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  margin-bottom: 20px;
 }
 
 /* ==========================================================================
@@ -535,25 +525,15 @@ Media Queries Mobile first styles.
 
 /* ===== == = === desde 48em (768px) === = == ===== */
 @media only screen and (min-width:48em) {
-  .datos-container {
-    width: 70%;
-  }
+  #container {
 
-  .datos-input,
-  .datos-btn {
-    display: inline-block;
-    width: 40%;
-  }
-
-  .datos-btn {
-    width: 50%;
   }
 }
 
 /* ===== == = === 64em (1024px) === = == ===== */
 @media only screen and (min-width:64em) {
-  .datos-container {
-    width: 50%;
+  #container {
+    width: 800px;
   }
 
   .datos-redes-sociales {
