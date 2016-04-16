@@ -489,7 +489,7 @@ a {
 }
 
 input {
-  width: 280px;
+  width: 240px;
   height: 50px;
   border: 1px solid #D6D6D6;
   box-sizing: border-box;
@@ -499,7 +499,7 @@ input {
 
 .btn-email {
   box-sizing: border-box;
-  width: 280px;
+  width: 300px;
   height: 50px;
   border: 0;
   padding: 10px 30px;
