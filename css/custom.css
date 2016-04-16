@@ -473,6 +473,8 @@ a {
   max-width: 590px;
   display: inline-block;
   vertical-align: top;
+  padding: 0px 20px;
+  box-sizing: border-box;
 }
 
 .row-text h3 {
@@ -497,7 +499,7 @@ input {
 
 .btn-email {
   box-sizing: border-box;
-  width: 300px;
+  width: 280px;
   height: 50px;
   border: 0;
   padding: 10px 30px;
