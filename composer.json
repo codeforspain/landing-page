@@ -1,0 +1,6 @@
+{
+    "require": {
+        "frlnc/php-slack": "1.0.*",
+        "vlucas/phpdotenv": "v2.2.*"
+    }
+}

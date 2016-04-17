@@ -38,8 +38,10 @@
         		<div class="row-text">
         			<h3>Conversa con la comunidad</h3>
                     <p>Hemos abierto un grupo de Slack para hablar sobre los proyectos que están en marcha y futuras nuevas ideas. Puedes unirte introduciendo tu email.</p>
-        			<input id="email" type="text" name="email" placeholder="tu@dominio.com" />
-        			<button class="btn-email" type="button">CONSEGUIR INVITACIÓN</button>
+                    <form id="form-email">
+            			<input id="email" type="text" name="email" placeholder="tu@dominio.com" />
+            			<button class="btn-email" type="submit">CONSEGUIR INVITACIÓN</button>
+                    </form>
         		</div>
         	</article>
         </section>
@@ -47,5 +49,8 @@
         <footer>
 			<a href="mailto:hola@codeforspain.org">Contacta con nosotros</a>
         </footer>
+
+        <script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="scripts/main.js"></script>
     </body>
 </html>
