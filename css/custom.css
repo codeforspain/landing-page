@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+.btn-email/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /**
  * 1. Set default font family to sans-serif.
@@ -507,6 +507,7 @@ input {
   background-color: #4597D9;
   color: #fff;
   font-weight: bold;
+  font-size:0.9em;
 }
 
 footer {
@@ -523,6 +524,18 @@ Media Queries Mobile first styles.
 
 @media screen and (min-width:31.5em) {
 
+}
+
+/* ===== == = === desde 585px === = == ===== */
+
+@media screen and (max-width:585px) {
+    .btn-email{
+        font-size: 0.75em;
+        width:100%;
+    }
+    input{
+        width:100%;
+    }
 }
 
 /* ===== == = === desde 48em (768px) === = == =====
