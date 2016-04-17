@@ -470,9 +470,11 @@ a {
 }
 
 .row-text {
-  width: 590px;
+  max-width: 590px;
   display: inline-block;
   vertical-align: top;
+  padding: 0px 20px;
+  box-sizing: border-box;
 }
 
 .row-text h3 {
@@ -487,7 +489,7 @@ a {
 }
 
 input {
-  width: 280px;
+  width: 240px;
   height: 50px;
   border: 1px solid #D6D6D6;
   box-sizing: border-box;
@@ -505,6 +507,7 @@ input {
   background-color: #4597D9;
   color: #fff;
   font-weight: bold;
+  font-size:0.9em;
 }
 
 footer {
@@ -523,17 +526,27 @@ Media Queries Mobile first styles.
 
 }
 
-/* ===== == = === desde 48em (768px) === = == ===== */
-@media only screen and (min-width:48em) {
-  #container {
+/* ===== == = === desde 585px === = == ===== */
 
-  }
+@media screen and (max-width:585px) {
+    .btn-email{
+        font-size: 0.75em;
+        width:100%;
+    }
+    input{
+        width:100%;
+    }
 }
+
+/* ===== == = === desde 48em (768px) === = == =====
+@media only screen and (min-width:48em) {
+
+} */
 
 /* ===== == = === 64em (1024px) === = == ===== */
 @media only screen and (min-width:64em) {
   #container {
-    width: 800px;
+    max-width: 800px;
   }
 
   .datos-redes-sociales {
