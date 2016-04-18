@@ -538,6 +538,17 @@ Media Queries Mobile first styles.
     }
 }
 
+/* ===== == = === desde 728px === = == ===== */
+
+@media screen and (max-width:728px) {
+    .icon{
+        vertical-align: top;
+        margin: 40px auto;
+        width: 20%;
+        display: block;
+    }
+}
+
 /* ===== == = === desde 48em (768px) === = == =====
 @media only screen and (min-width:48em) {
 
