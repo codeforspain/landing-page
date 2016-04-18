@@ -26,7 +26,7 @@ $(() => {
         if ( !email.match(re) ) {
              // alert('El email no es válido');
              btn.innerHTML = 'CONSEGUIR INVITACIÓN'; // Return to the old #btn-email text
-             btn.className = btn.className.replace("send", ""); // Remove feedback response class to #btn-email
+             btn.className = ''; // Remove feedback response class to #btn-email
              input.className = 'error'; // Add .error class to #email
              response.innerHTML = 'El email no es válido'; // Add error text to #response-text
              response.className = 'error'; // Add error class to #response-text
